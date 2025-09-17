@@ -17,11 +17,11 @@ The objective of the project is to extract meaningful business insights by apply
 ![ERD](https://github.com/najirh/Apple-Retail-Sales-SQL-Project---Analyzing-Millions-of-Sales-Rows/blob/main/erd.png)
 
 
-### What’s Included:
-- **100 SQL Practice Problems**: Extensive coverage of major SQL topics for mastering concepts with real-world data.
-- **20 Advanced SQL Queries**: Step-by-step solutions for complex queries, enhancing your skills in performance tuning and optimization.
-- **5 Detailed Tables**: Comprehensive datasets with over 1 million rows, including sales, stores, product categories, products, and warranties.
-- **Query Performance Tuning**: Learn to optimize queries for real-world data handling.
+## What’s Included  
+- Multiple SQL queries that cover filtering, aggregations, joins, window functions.  
+- Sales trend analysis (by store, by product, by time period).  
+- Warranty claim analysis with ratio, timing, and category.  
+- Query performance considerations with large tables.  
 
 ## Why Choose This Project?
 - **Hands-on Learning**: Practical experience with complex datasets and advanced business problem-solving.
@@ -62,11 +62,7 @@ The project uses five main tables:
    - `sale_id`: References the sales table.
    - `repair_status`: Status of the warranty claim (e.g., Paid Repaired, Warranty Void).
 
-## Objectives
-
-The project is split into three tiers of questions to test SQL skills of increasing complexity:
-
-### Easy to Medium (10 Questions)
+## Objectives  
 
 1. Find the number of stores in each country.
 2. Calculate the total number of units sold by each store.
@@ -79,7 +75,7 @@ The project is split into three tiers of questions to test SQL skills of increas
 9. How many warranty claims were filed in 2020?
 10. For each store, identify the best-selling day based on highest quantity sold.
 
-### Medium to Hard (5 Questions)
+
 
 11. Identify the least selling product in each country for each year based on total units sold.
 12. Calculate how many warranty claims were filed within 180 days of a product sale.
@@ -87,7 +83,7 @@ The project is split into three tiers of questions to test SQL skills of increas
 14. List the months in the last three years where sales exceeded 5,000 units in the USA.
 15. Identify the product category with the most warranty claims filed in the last two years.
 
-### Complex (5 Questions)
+
 
 16. Determine the percentage chance of receiving warranty claims after each purchase for each country.
 17. Analyze the year-by-year growth ratio for each store.
@@ -95,7 +91,6 @@ The project is split into three tiers of questions to test SQL skills of increas
 19. Identify the store with the highest percentage of "Paid Repaired" claims relative to total claims filed.
 20. Write a query to calculate the monthly running total of sales for each store over the past four years and compare trends during this period.
 
-### Additional Question
 
 - Analyze product sales trends over time, segmented into key periods: from launch to 6 months, 6-12 months, 12-18 months, and beyond 18 months.
 
